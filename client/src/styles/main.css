@@ -1,0 +1,25 @@
+.container {
+  width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.grey {
+  background: #f4f4f4;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.categories a {
+  display: block;
+}
+
+label,
+input,
+textarea {
+  display: block;
+}
